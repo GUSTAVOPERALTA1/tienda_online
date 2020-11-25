@@ -13,7 +13,7 @@ CREATE TABLE tickets(
     total_producto int(100)
 );
 
-INSERT INTO productos(producto, precio) values("Papas fritas","13");
-INSERT INTO productos(producto, precio) values "Crema","24");
+INSERT INTO productos(producto, precio, existencias) values("Papas fritas","13","15");
+INSERT INTO productos(producto, precio, existencias) values ( "Crema","24","30");
 
 

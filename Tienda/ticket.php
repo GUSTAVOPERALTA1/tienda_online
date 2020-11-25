@@ -1,16 +1,16 @@
 <?php
- $carrito = $_POST[ 'almacenado'];
- $total = $_POST ['total'];
- $pago = $_POST['pagar'];
- $cambio =  $pago - $total;
+ $carro= $_POST ['car'];
+ $total = $_POST ['conclusion'];
+ $recibir = $_POST['pago'];
+ $cambio =  $recibir - $total;
 ?>
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <link rel="stylesheet" type="text/css" href="css/sweetalert2.min.css" media="screen"/>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen"/>
     <script type="text/javascript" src="javascript/carrito.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/sweetalert2.all.min.js" charset="utf-8"></script>
-    <title>Ticket de compra</title>
+    <title>Ticket</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -19,21 +19,21 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <form method="POST" action="tienda.php">
-    <div">
-      <h1 >Tiendita de la esquina</h1>
+    <div>
+      <h1 >MISCELANEA DE LA ESQUINA</h1>
       <br>
-      <h3>Aqui esta su compra:</h3>
-      
-      <p >Articulos: <br><?php print($carrito);?></p>
-    <p>********************************************************************</p>
-      <p>Total: <?php print("$".$total);?></p>
-      <p>Recibido: <?php print("$".$pago);?></p>
-       <p>Cambio: <?php print("$".$cambio);?></p>
+      <h3>Ticket de compra</h3>
       <p><?php echo date("D M j G:i:s:A Y");?></p>
-      <p>********************************************************************</p>
-      <p >Gracias por su compra, buen dia</p>
-     <p>********************************************************************</p>
+      <p>---------------------------------------------------------------</p>
+      <p >Todas tus compras: <br><?php print ($carro);?></p>
+     <p>---------------------------------------------------------------</p>
+      <p>Total: <?php print("$".$total);?></p>
+      <p>Recibido: <?php print("$".$recibir);?></p>
+       <p>Cambio: <?php print("$".$cambio);?></p>
+      <p>---------------------------------------------------------------</p>
+      <p >SISTEMA DE FACTURACION</p>
+      <p>Gracias por su compra</p>
+      <p>---------------------------------------------------------------</p>
       
     </div>
   </body>

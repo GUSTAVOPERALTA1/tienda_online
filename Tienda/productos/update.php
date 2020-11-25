@@ -14,12 +14,12 @@
 
 <body>
     <div class="container-fluid">
-        <h1>Update</h1>
+        <h1>Actualizar</h1>
         <a href="index.php">Lista de productos</a>
 
         <form action='db/list_update.php' method='GET'>
             <?php include 'db/list_view.php'; ?>
-            <button type='submit' class='btn btn-primary'>Update</button>
+            <button type='submit' class='btn btn-primary'>Actualizar</button>
         </form>
 
     </div>

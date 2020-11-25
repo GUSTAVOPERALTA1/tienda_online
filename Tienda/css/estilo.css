@@ -1,10 +1,29 @@
-.miestilolabel{
-  color: rgba(48, 90, 45, 0.692);
-  font-family: 'Cursive', cursive;
-  font-style: bold;
-  width: 100%;
-  text-align: center;
-
+h1 {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+h3 {
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: 35px;
+  font-family: Arial;
+  text-transform: uppercase;
+}
+.btn {
+-webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 6px 5px 24px #666666;
+  -moz-box-shadow: 6px 5px 24px #666666;
+  box-shadow: 6px 5px 24px #666666;
+font-family: Arial;
+  color: #fafafa;
+  font-size: 27px;
+  padding: 19px;
+  text-decoration:none;
 }
 .total{
   color: black;
@@ -12,4 +31,9 @@
   font-style: initial;
   width: 100%;
   text-align: left
+}
+body{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: initial;
 }
