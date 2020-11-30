@@ -26,20 +26,20 @@
         <h1>Insertar</h1>
         <a href="index.php">Todos los productos</a>
 
-        <form action="insert.php" method="GET">
+        <form action="db/list_insert.php" method="GET">
             <div class="form-group">
                 <label for="producto">Producto</label>
-                <input type="text" class="form-control" id="producto" name="producto" aria-describedby="aria_producto" placeholder="Ingresa el nombre del producto">
+                <input type="text" class="form-control" id="producto" name="articulo" aria-describedby="aria_producto" placeholder="Ingresa el nombre del producto">
             
             </div>
             <div class="form-group">
                 <label for="precio">Precio</label>
-                <input type="text" class="form-control" id="precio" name="precio" aria-describedby="aria_precio" placeholder="Ingresa el precio">
+                <input type="text" class="form-control" id="precio" name="valor" aria-describedby="aria_precio" placeholder="Ingresa el precio">
             
             </div>
             <div class="form-group">
-                <label for="existencia">Existencia</label>
-                <input type="text" class="form-control" id="existencia" name="existencia" aria-describedby="aria_existencia" placeholder="Existencia">
+                <label for="existencias">Existencia</label>
+                <input type="text" class="form-control" id="existencia" name="cantidades" aria-describedby="aria_existencia" placeholder="Existencia">
             
             </div>
             <button type="submit" class="btn btn-primary">Insertar</button>

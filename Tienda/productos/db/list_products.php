@@ -25,7 +25,7 @@
         $id_producto = $row['id_producto'];
         $producto = $row['producto'];
         $precio = $row['precio'];
-        $existecia = $row['existencia'];
+        $existencia = $row[ 'existencia'];
 
         $table = "
             <tr>
@@ -36,24 +36,10 @@
                 <td><a href='view.php?id_producto=$id_producto'>View</a></td>
                 <td><a href='update.php?id_producto=$id_producto'>Update</a></td>
                 <td><a href='delete.php?id_producto=$id_producto'>Delete</a></td>
-            </tr>
-        ";
+            </tr>";
 
         print($table);
-
-
-/*
-        //Forma 2 para mostrar los datos
-        print("<tr>");
-        print("<td>".$row['id_persona']."</td>");
-        print("<td>".$row['nombre']."</td>");
-        print("<td>".$row['primer_apellido']."</td>");
-        print("<td><a href='view.php?id_persona=".$row['id_persona']."'>View</a></td>");
-        print("<td><a href='update.php?id_persona=".$row['id_persona']."'>Update</a></td>");
-        print("<td><a href='delete.php?id_persona=".$row['id_persona']."'>Delete</a></td>");
-        print("</tr>");
-        */
     }
  
-    #print("</table>");
+    print("</table>");
 ?>

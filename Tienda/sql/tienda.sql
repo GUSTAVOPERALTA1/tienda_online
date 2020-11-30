@@ -1,19 +1,16 @@
-CREATE TABLE productos(
-    id_producto integer PRIMARY KEY AUTOINCREMENT,
-    producto varchar(50) NOT NULL,
-    precio int(20),
-    existencias int(20)
-);
-CREATE TABLE tickets(
-    id_ticket integer PRIMARY KEY AUTOINCREMENT,
-    fecha date,
-    hora_venta time,
+create table productos(
+    id_producto integer primary key autoincrement,
+    producto varchar(30) not null,
+    precio int(10) not null,
+    existencia int(10) not null);
+
+insert into productos (producto, precio, existencia) values(
+('Crema','24','50'));
+
+create table ticket(
+    id_ticket integer primary key  autoincrement,
+    fecha date not null,
+    hora_venta date time not null,
     cantidad_producto int(20),
-    producto varchar(50) NOT NULL,
-    total_producto int(100)
-);
-
-INSERT INTO productos(producto, precio) values("Papas fritas","13");
-INSERT INTO productos(producto, precio) values "Crema","24");
-
-
+    producto varchar(20),
+    total_producto int(20)); 

@@ -1,6 +1,5 @@
 <?php
-
-    $id_producto = $_GET["id_producto"];
+    $id_producto = $_GET['id_producto'];
 
     $db = new SQLite3("../tienda.db");
 
@@ -15,7 +14,7 @@
 
     $form = "<div class='form-group'>
             <label for='id_producto'>ID</label>
-            <input type='text' readonly class='form-control' id='id_producto' producto='id_producto' aria-describedby='Id producto' value='$id_producto'>
+            <input type='text' readonly class='form-control' id='id_producto' producto='id_producto' aria-describedby='id_producto' value='$id_producto'>
         </div>
         <div class='form-group'>
             <label for='producto'>Producto</label>
