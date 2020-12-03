@@ -16,10 +16,23 @@
     <div class="container">
       <h1><center>MISCELANEA LA ESQUINITA</center></h1>
       <form method="POST" action="ticket.php">
-        <div id="productos">
-            <?php include 'seleccion.php'; ?>
-        </div>
-        <br>
+        <div>
+         <body>
+            <div>                        
+                <h3>Productos:</h3>
+                <select name="productos" class="custom-select mb-3" id="seleccion">
+                <option selected>Productos</option>
+                <option value="24">Crema</option>
+                <option value="13">Papas fritas</option>
+                <option value="10">Gel para cabello</option>
+                <option value="25">Audifonos</option>
+                <option value="8">Agua 600ml</option>
+                <option value="10">Palomitas</option>
+                <option value="25">Salchichas</option>
+                <option value="40">Cereal</option>
+                </select>
+            </div>
+                <br>
         <h3>CANTIDAD:</h3>
         <input type="number" class="form-control" id="cantidad" placeholder="Cantidades" name="cantidad">
         <br>

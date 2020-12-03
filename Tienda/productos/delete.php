@@ -9,7 +9,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
+<<<<<<< HEAD
     <title>Registro de productos</title>
+=======
+    <title>Agenda</title>
+>>>>>>> 7958bfe4344ae0645d0351188f7d40d3484c8c0f
 </head>
 
 <body>

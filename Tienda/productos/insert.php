@@ -39,7 +39,11 @@
             </div>
             <div class="form-group">
                 <label for="existencias">Existencia</label>
+<<<<<<< HEAD
                 <input type="text" class="form-control" id="existencia" name="cantidades" aria-describedby="aria_existencia" placeholder="Existencia">
+=======
+                <input type="text" class="form-control" id="existencias" name="existencias" aria-describedby="aria_existencia" placeholder="Existencia">
+>>>>>>> 7958bfe4344ae0645d0351188f7d40d3484c8c0f
             
             </div>
             <button type="submit" class="btn btn-primary">Insertar</button>
